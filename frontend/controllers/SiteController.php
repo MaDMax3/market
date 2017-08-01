@@ -22,7 +22,7 @@ class SiteController extends Controller
      * @inheritdoc
      */
     public $defaultAction = "login";
-    public $layout="dashboard";
+    //public $layout="dashboard";
     public function behaviors()
     {
         return [
@@ -78,6 +78,7 @@ class SiteController extends Controller
     }
 
     public function actionDashboard(){
+        $this->layout="dashboard";
         return $this->render('dashboard');
     }
 

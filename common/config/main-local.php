@@ -6,7 +6,7 @@ return [
             'dsn' => 'mysql:host=localhost;dbname=market',
             'emulatePrepare' => true,
             'username' => 'root',
-            'password' => 'password',
+            'password' => 'root',
             'charset' => 'utf8',
         ],
         'mailer' => [
